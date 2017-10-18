@@ -1,0 +1,9 @@
+facebook.com###pagelet_advertiser_panel
+facebook.com###fb_stories_card_root
+facebook.com###pagelet_ego_pane
+facebook.com###pagelet_rhc_ticker_card
+facebook.com###pagelet_locale_coverage
+facebook.com###pagelet_trending_tags_and_topics
+facebook.com###pagelet_games_rhc
+
+www.hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
