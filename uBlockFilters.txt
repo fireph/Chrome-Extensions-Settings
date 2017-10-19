@@ -14,4 +14,11 @@ facebook.com###pagelet_locale_coverage
 facebook.com###pagelet_trending_tags_and_topics
 facebook.com###pagelet_games_rhc
 
-www.hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
+hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
+
+theverge.com##.l-header
+
+slickdeals.net###featureDealsAndCoupons
+slickdeals.net##.announcementBar
+slickdeals.net###crt-adblock-a
+slickdeals.net###crt-adblock-b
