@@ -24,3 +24,4 @@ slickdeals.net###crt-adblock-a
 slickdeals.net###crt-adblock-b
 
 myanimelist.net##.banner-header-anime-straming
+myanimelist.net##.btn-mal-service
