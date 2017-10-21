@@ -22,3 +22,5 @@ slickdeals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
 slickdeals.net###crt-adblock-a
 slickdeals.net###crt-adblock-b
+
+myanimelist.net##.banner-header-anime-straming
