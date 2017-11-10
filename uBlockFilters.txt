@@ -1,6 +1,6 @@
 ! Title: DungFu uBlock Origin Filters
 ! Description: My personal filters for uBlock Origin
-! Expires: 7 days
+! Expires: 2 days
 ! Author: DungFu
 ! Homepage: https://github.com/DungFu/DungFu-uBlock-Origin-Filters
 ! Download: https://raw.githubusercontent.com/DungFu/DungFu-uBlock-Origin-Filters/master/uBlockFilters.txt
