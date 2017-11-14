@@ -32,3 +32,4 @@ rarbg.to##body > table:nth-of-type(1)
 ||i.ytimg.com/an_webp/*/mqdefault_6s.webp*
 
 www.cpubenchmark.net###blocker
+www.cpubenchmark.net###specialsCornerPromo
