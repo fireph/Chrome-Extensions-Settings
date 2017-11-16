@@ -16,6 +16,7 @@ facebook.com###pagelet_games_rhc
 facebook.com###pagelet_ego_contextual_group
 facebook.com###event_related_events
 facebook.com###event_related_pages
+facebook.com##*[id^="PagePagesLikedByPageSecondaryPagelet"]
 
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
