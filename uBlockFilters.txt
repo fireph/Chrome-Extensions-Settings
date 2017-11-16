@@ -14,6 +14,7 @@ facebook.com###pagelet_locale_coverage
 facebook.com###pagelet_trending_tags_and_topics
 facebook.com###pagelet_games_rhc
 facebook.com###pagelet_ego_contextual_group
+facebook.com###GroupsRHCSuggestionSection
 facebook.com###event_related_events
 facebook.com###event_related_pages
 facebook.com##*[id^="PagePagesLikedByPageSecondaryPagelet"]
