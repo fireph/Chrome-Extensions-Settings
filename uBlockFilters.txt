@@ -13,6 +13,7 @@ facebook.com###pagelet_rhc_ticker_card
 facebook.com###pagelet_locale_coverage
 facebook.com###pagelet_trending_tags_and_topics
 facebook.com###pagelet_games_rhc
+facebook.com###pagelet_ego_contextual_group
 
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
