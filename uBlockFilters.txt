@@ -40,3 +40,6 @@ www.cpubenchmark.net###blocker
 www.cpubenchmark.net###specialsCornerPromo
 
 www.theguardian.com##.contributions__epic
+
+www.amazon.com###nav-upnav
+www.amazon.com###detail-ilm_div
