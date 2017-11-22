@@ -18,6 +18,7 @@ facebook.com###GroupsRHCSuggestionSection
 facebook.com###event_related_events
 facebook.com###event_related_pages
 facebook.com##*[id^="PagePagesLikedByPageSecondaryPagelet"]
+facebook.com##.ego_section
 
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
