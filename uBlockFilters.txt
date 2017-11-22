@@ -25,6 +25,8 @@ hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 theverge.com##.l-header
 theverge.com##.tab-bar-fixed.c-tab-bar
 
+polygon.com##.tab-bar-fixed.c-tab-bar
+
 slickdeals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
 slickdeals.net###crt-adblock-a
