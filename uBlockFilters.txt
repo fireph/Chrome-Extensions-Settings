@@ -20,6 +20,7 @@ facebook.com###event_related_pages
 facebook.com##*[id^="PagePagesLikedByPageSecondaryPagelet"]
 facebook.com##.ego_section
 facebook.com###work_mobile_upsell_pagelet
+facebook.com##div[id^="PageRelatedPagesSecondaryPagelet_"]
 
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
