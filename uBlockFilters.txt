@@ -23,9 +23,16 @@ facebook.com##.ego_section
 facebook.com###work_mobile_upsell_pagelet
 facebook.com##div[id^="PageRelatedPagesSecondaryPagelet_"]
 facebook.com##:xpath(//div[@title="Page Stories You May Like"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-facebook.com##:xpath(//a[@href="/groups/?category=top&ref=ego" and text()="Discover More Groups"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
+facebook.com##:xpath(//a[starts-with(@href, "/groups/") and text()="Discover More Groups"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 facebook.com##:xpath(//span[text()="Create New Groups"]/parent::div/parent::div)
 facebook.com##:xpath(//button[text()="Create a Page"])
+
+facebook.com##:xpath(//a[starts-with(@href, "/games/") and @title="Games"]/ancestor::li[starts-with(@id,"navItem_")])
+facebook.com##:xpath(//a[starts-with(@href, "/marketplace/") and @title="Marketplace"]/ancestor::li[starts-with(@id,"navItem_")])
+facebook.com##:xpath(//a[starts-with(@href, "/campaign/landing.php") and @title="Ads Manager"]/ancestor::li[starts-with(@id,"navItem_")])
+facebook.com##:xpath(//a[starts-with(@href, "/fundraisers/") and @title="Fundraisers"]/ancestor::li[starts-with(@id,"navItem_")])
+facebook.com##:xpath(//a[starts-with(@href, "/bookmarks/lists/") and @title="Friend Lists"]/ancestor::li[starts-with(@id,"navItem_")])
+facebook.com##:xpath(//a[starts-with(@href, "/explore/") and @title="Explore Feed"]/ancestor::li[starts-with(@id,"navItem_")])
 
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
