@@ -21,7 +21,8 @@ facebook.com##*[id^="PagePagesLikedByPageSecondaryPagelet"]
 facebook.com##.ego_section
 facebook.com###work_mobile_upsell_pagelet
 facebook.com##div[id^="PageRelatedPagesSecondaryPagelet_"]
-facebook.com##:xpath(//div[@title="Page Stories You May Like"]/parent::div/parent::div|div[starts-with(@id,"hyperfeed_story_id_")])
+facebook.com##:xpath(//div[@title="Page Stories You May Like"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
+facebook.com##:xpath(//a[@href="/groups/?category=top&ref=ego" and text()="Discover More Groups"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
