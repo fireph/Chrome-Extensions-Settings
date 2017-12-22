@@ -23,6 +23,7 @@ facebook.com###work_mobile_upsell_pagelet
 facebook.com##div[id^="PageRelatedPagesSecondaryPagelet_"]
 facebook.com##:xpath(//div[@title="Page Stories You May Like"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 facebook.com##:xpath(//a[@href="/groups/?category=top&ref=ego" and text()="Discover More Groups"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
+facebook.com##:xpath(//span[text()="Create New Groups"]/parent::div/parent::div)
 
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
