@@ -26,6 +26,7 @@ facebook.com##:xpath(//div[@title="Page Stories You May Like"]/ancestor::div[sta
 facebook.com##:xpath(//a[starts-with(@href, "/groups/") and text()="Discover More Groups"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 facebook.com##:xpath(//span[text()="Create New Groups"]/parent::div/parent::div)
 facebook.com##:xpath(//button[text()="Create a Page"])
+facebook.com##:xpath(//span[text()="Bring People Together"]/parent::div/parent::div)
 
 facebook.com##:xpath(//a[starts-with(@href, "/games/") and @title="Games"]/ancestor::li[starts-with(@id,"navItem_")])
 facebook.com##:xpath(//a[starts-with(@href, "/marketplace/") and @title="Marketplace"]/ancestor::li[starts-with(@id,"navItem_")])
