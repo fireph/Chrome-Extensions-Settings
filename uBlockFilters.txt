@@ -24,6 +24,7 @@ facebook.com###work_mobile_upsell_pagelet
 facebook.com##div[id^="PageRelatedPagesSecondaryPagelet_"]
 facebook.com##:xpath(//div[@title="Page Stories You May Like"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 facebook.com##:xpath(//a[starts-with(@href, "/groups/") and text()="Discover More Groups"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
+facebook.com##:xpath(//span[text()="Connect With Facebook"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 facebook.com##:xpath(//span[text()="Create New Groups"]/parent::div/parent::div)
 facebook.com##:xpath(//button[text()="Create a Page"])
 facebook.com##:xpath(//span[text()="Bring People Together"]/parent::div/parent::div)
