@@ -66,3 +66,5 @@ amazon.com###nav-upnav
 amazon.com###detail-ilm_div
 amazon.com###heroQuickPromo_feature_div
 amazon.com###huc-v2-cobrand-stripe
+
+forum.xda-developers.com###honor-launch-banner
