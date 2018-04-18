@@ -72,3 +72,6 @@ amazon.com###huc-v2-cobrand-stripe
 
 forum.xda-developers.com###honor-launch-banner
 forum.xda-developers.com##a[href="/ad-free"]
+
+horriblesubs.info##.message-blk.msgblk-container
+horriblesubs.info###headerimg
