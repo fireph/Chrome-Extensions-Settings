@@ -76,3 +76,5 @@ forum.xda-developers.com##a[href="/ad-free"]
 
 horriblesubs.info##.message-blk.msgblk-container
 horriblesubs.info###headerimg
+
+stackoverflow.com##.js-dismissable-hero
