@@ -78,3 +78,7 @@ horriblesubs.info##.message-blk.msgblk-container
 horriblesubs.info###headerimg
 
 stackoverflow.com##.js-dismissable-hero
+
+wowhead.com##.header-nav-wowhead-premium
+wowhead.com##.zul-bar-user-item-get-premium
+wowhead.com##.premium-promo-row
