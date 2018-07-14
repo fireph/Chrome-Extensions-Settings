@@ -82,3 +82,5 @@ stackoverflow.com##.js-dismissable-hero
 wowhead.com##.header-nav-wowhead-premium
 wowhead.com##.zul-bar-user-item-get-premium
 wowhead.com##.premium-promo-row
+
+yelp.com##:xpath(//img[contains(@class, "promo-img__"))
