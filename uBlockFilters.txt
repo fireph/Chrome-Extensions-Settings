@@ -84,3 +84,5 @@ wowhead.com##.zul-bar-user-item-get-premium
 wowhead.com##.premium-promo-row
 
 yelp.com##:xpath(//div[contains(@data-hypernova-key, "__yelp_main__Promotion__dynamic")])
+
+polygon.com##.adblock-whitelist-messaging__wrapper
