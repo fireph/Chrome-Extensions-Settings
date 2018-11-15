@@ -88,3 +88,5 @@ yelp.com##:xpath(//div[contains(@data-hypernova-key, "__yelp_main__Promotion__dy
 polygon.com##.adblock-whitelist-messaging__wrapper
 
 youtube.com##.ytp-ce-element
+
+newegg.com##.live-shopping
