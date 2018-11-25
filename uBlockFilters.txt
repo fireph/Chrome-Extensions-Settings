@@ -53,6 +53,8 @@ slickdeals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
 slickdeals.net###crt-adblock-a
 slickdeals.net###crt-adblock-b
+slickdeals.net###giveawayItem
+slickdeals.net##.announcementBarPlaceholder
 
 myanimelist.net##.banner-header-anime-straming
 myanimelist.net##.btn-mal-service
