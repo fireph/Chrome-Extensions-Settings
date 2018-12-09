@@ -93,3 +93,5 @@ polygon.com##.adblock-whitelist-messaging__wrapper
 youtube.com##.ytp-ce-element
 
 newegg.com##.live-shopping
+
+nexusmods.com##.areplacer
