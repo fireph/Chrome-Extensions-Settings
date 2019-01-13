@@ -89,6 +89,7 @@ wowhead.com##.premium-promo-row
 yelp.com##:xpath(//div[contains(@data-hypernova-key, "__yelp_main__Promotion__dynamic")])
 
 polygon.com##.adblock-whitelist-messaging__wrapper
+polygon.com##.adblock-whitelist-messaging__article-wrapper
 
 youtube.com##.ytp-ce-element
 
