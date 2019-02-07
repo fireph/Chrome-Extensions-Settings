@@ -96,3 +96,5 @@ youtube.com##.ytp-ce-element
 newegg.com##.live-shopping
 
 nexusmods.com##.areplacer
+
+xkcd.com###topContainer
