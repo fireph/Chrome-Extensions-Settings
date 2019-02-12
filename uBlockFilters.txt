@@ -42,6 +42,8 @@ facebook.com##:xpath(//a[starts-with(@href, "/fundraisers/") and @title="Fundrai
 facebook.com##:xpath(//a[starts-with(@href, "/bookmarks/lists/") and @title="Friend Lists"]/ancestor::li[starts-with(@id,"navItem_")])
 facebook.com##:xpath(//a[starts-with(@href, "/explore/") and @title="Explore Feed"]/ancestor::li[starts-with(@id,"navItem_")])
 
+facebook.com##div[id^="hyperfeed_story_id_"]:has(span:has-text(/^S$/)):has(span:has-text(/^p$/)):has(span:has-text(/^o$/)):has(span:has-text(/^n$/)):has(span:has-text(/^s$/)):has(span:has-text(/^o$/)):has(span:has-text(/^r$/)):has(span:has-text(/^e$/)):has(span:has-text(/^d$/))
+
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
 theverge.com##.l-header
