@@ -100,3 +100,5 @@ newegg.com##.live-shopping
 nexusmods.com##.areplacer
 
 xkcd.com###topContainer
+
+arstechnica.com##.ars-appeal-wrapper
