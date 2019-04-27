@@ -43,7 +43,7 @@ facebook.com##:xpath(//a[starts-with(@href, "/fundraisers/") and @title="Fundrai
 facebook.com##:xpath(//a[starts-with(@href, "/bookmarks/lists/") and @title="Friend Lists"]/ancestor::li[starts-with(@id,"navItem_")])
 facebook.com##:xpath(//a[starts-with(@href, "/explore/") and @title="Explore Feed"]/ancestor::li[starts-with(@id,"navItem_")])
 
-! Block Facebook sponsored posts
+! Block Facebook sponsored posts and pagelets
 facebook.com##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
 facebook.com##.pagelet-group .pagelet:has(a:has-text(Sponsored))
 facebook.com##.pagelet-group .pagelet:has(a:has-text(Create ad))
