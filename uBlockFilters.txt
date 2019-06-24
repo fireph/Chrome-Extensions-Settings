@@ -113,3 +113,4 @@ twitch.tv##.extension-container
 twitch.tv##.extension-taskbar
 
 hotslogs.com###advertisementBannerMonkeyBrokerRight
+hotslogs.com##.gdpr-module
