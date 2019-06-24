@@ -112,4 +112,4 @@ arstechnica.com##.ars-appeal-wrapper
 twitch.tv##.extension-container
 twitch.tv##.extension-taskbar
 
-hotslogs.com##.advertisementBannerMonkeyBrokerRight
+hotslogs.com###advertisementBannerMonkeyBrokerRight
