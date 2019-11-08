@@ -35,7 +35,6 @@ facebook.com##:xpath(//span[text()="Bring People Together"]/parent::div/parent::
 facebook.com##:xpath(//div[text()="— The Facebook Help Team"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 facebook.com##:xpath(//div[text()="People to Follow"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 facebook.com##:xpath(//div[@aria-label="Message from Facebook"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-facebook.com##:xpath(//a[@aria-label="Advertiser link"]/parent::div/parent::div/parent::div/parent::div)
 
 facebook.com##:xpath(//a[starts-with(@href, "/games/") and @title="Games"]/ancestor::li[starts-with(@id,"navItem_")])
 facebook.com##:xpath(//a[starts-with(@href, "/marketplace/") and @title="Marketplace"]/ancestor::li[starts-with(@id,"navItem_")])
@@ -48,6 +47,12 @@ facebook.com##:xpath(//a[starts-with(@href, "/explore/") and @title="Explore Fee
 facebook.com##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
 facebook.com##.pagelet-group .pagelet:has(a:has-text(Sponsored))
 facebook.com##.pagelet-group .pagelet:has(a:has-text(Create ad))
+
+! New Facebook UI
+facebook.com##:xpath(//a[@aria-label="Advertiser link"]/parent::div/parent::div/parent::div/parent::div)
+facebook.com##:xpath(//span[text()="People You May Know"]/ancestor::div[@role="article"])
+facebook.com##:xpath(//span[text()="Sponsored"]/ancestor::div[@role="article"])
+facebook.com##:xpath(//span[text()="Suggested for You"]/ancestor::div[@role="article"])
 
 workplace.com###pagelet_ego_pane
 
