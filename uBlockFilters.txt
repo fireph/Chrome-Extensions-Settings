@@ -62,6 +62,7 @@ hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
 theverge.com##.l-header
 theverge.com##.tab-bar-fixed.c-tab-bar
+theverge.com###content:style(margin-top:0 !important;)
 
 polygon.com##.tab-bar-fixed.c-tab-bar
 
