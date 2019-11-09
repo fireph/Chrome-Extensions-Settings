@@ -64,7 +64,9 @@ theverge.com##.l-header
 theverge.com##.tab-bar-fixed.c-tab-bar
 theverge.com###content:style(margin-top:0 !important;)
 
+polygon.com##.l-header
 polygon.com##.tab-bar-fixed.c-tab-bar
+polygon.com###content:style(margin-top:0 !important;)
 
 slickdeals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
