@@ -119,6 +119,8 @@ nexusmods.com##.areplacer
 xkcd.com###topContainer
 
 arstechnica.com##.ars-appeal-wrapper
+arstechnica.com##.site-header
+arstechnica.com###main:style(padding-top:0 !important;)
 
 twitch.tv##.extension-container
 twitch.tv##.extension-taskbar
