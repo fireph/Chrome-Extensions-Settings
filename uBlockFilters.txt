@@ -58,6 +58,7 @@ facebook.com##:xpath(//span[text()="Suggested for You"]/ancestor::div[@role="art
 workplace.com##:xpath(//h2[text()="Suggested Groups"]/parent::div/parent::div/parent::div)
 workplace.com##:xpath(//h2[text()="People to Follow"]/parent::div/parent::div/parent::div)
 workplace.com##:xpath(//h3[text()="Suggested Members"]/parent::div/parent::div/parent::div/parent::div)
+workplace.com##:xpath(//span[text()="Explore and join groups that coworkers belong to."]/parent::div/parent::div/parent::div/parent::div)
 workplace.com##:xpath(//span[text()="People to Follow"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
 
 hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
