@@ -127,5 +127,4 @@ arstechnica.com###main:style(padding-top:0 !important;)
 twitch.tv##.extension-container
 twitch.tv##.extension-taskbar
 
-hotslogs.com###advertisementBannerMonkeyBrokerRight
-hotslogs.com##.gdpr-module
+nytimes.com##.MAG_web_anon_new-journey-rollout
