@@ -55,6 +55,10 @@ facebook.com##:xpath(//span[text()="People You May Know"]/ancestor::div[@role="a
 facebook.com##:xpath(//span[text()="Sponsored"]/ancestor::div[@role="article"])
 facebook.com##:xpath(//span[text()="Suggested for You"]/ancestor::div[@role="article"])
 
+! Block sponsored posts
+facebook.com#?#div[id^=hyperfeed_story_id_]:has(a[role^=button]:has(> span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
+facebook.com##div[data-pagelet^="FeedUnit"]:has(a[role^=link]:has(> span:has([data-content="S"]):not(:has([data-content="1"])):not(:has([data-content="2"])):not(:has([data-content="3"])):not(:has([data-content="4"])):not(:has([data-content="5"])):not(:has([data-content="6"])):not(:has([data-content="7"])):not(:has([data-content="8"])):not(:has([data-content="9"])):not(:has([data-content="w"]))))
+
 workplace.com##:xpath(//h2[text()="Suggested Groups"]/parent::div/parent::div/parent::div/parent::div/parent::div)
 workplace.com##:xpath(//h2[text()="People to Follow"]/parent::div/parent::div/parent::div/parent::div/parent::div)
 workplace.com##:xpath(//h3[text()="Suggested Members"]/parent::div/parent::div/parent::div/parent::div)
