@@ -54,6 +54,14 @@ facebook.com##:xpath(//a[@aria-label="Advertiser link"]/parent::div/parent::div/
 facebook.com##:xpath(//span[text()="People You May Know"]/ancestor::div[@role="article"])
 facebook.com##:xpath(//span[text()="Sponsored"]/ancestor::div[@role="article"])
 facebook.com##:xpath(//span[text()="Suggested for You"]/ancestor::div[@role="article"])
+facebook.com##:xpath(//div[text()="Watch"]/ancestor::a[contains(@href, "/watch/")]/ancestor::li)
+facebook.com##:xpath(//div[text()="COVID-19 Information Center"]/ancestor::a[contains(@href, "/coronavirus_info/")]/ancestor::li)
+facebook.com##:xpath(//div[text()="Marketplace"]/ancestor::a[contains(@href, "/marketplace/")]/ancestor::li)
+facebook.com##:xpath(//div[text()="Fundraisers"]/ancestor::a[contains(@href, "/fundraisers/")]/ancestor::li)
+facebook.com##:xpath(//a[starts-with(@aria-label,"Watch") and starts-with(@href,"/watch/")]/ancestor::li)
+facebook.com##:xpath(//a[starts-with(@aria-label,"Marketplace") and starts-with(@href,"/marketplace/")]/ancestor::li)
+facebook.com##:xpath(//a[starts-with(@aria-label,"Gaming") and starts-with(@href,"/gaming/")]/ancestor::li)
+facebook.com##div[data-pagelet="VideoChatHomeUnit"]
 
 ! Block sponsored posts
 facebook.com##div[data-pagelet^="FeedUnit"]:has(a[role^=link]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
