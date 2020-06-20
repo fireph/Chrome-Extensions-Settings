@@ -59,6 +59,7 @@ facebook.com##:xpath(//div[text()="Watch"]/ancestor::a[contains(@href, "/watch/"
 facebook.com##:xpath(//div[text()="COVID-19 Information Center"]/ancestor::a[contains(@href, "/coronavirus_info/")]/ancestor::li)
 facebook.com##:xpath(//div[text()="Marketplace"]/ancestor::a[contains(@href, "/marketplace/")]/ancestor::li)
 facebook.com##:xpath(//div[text()="Fundraisers"]/ancestor::a[contains(@href, "/fundraisers/")]/ancestor::li)
+facebook.com##:xpath(//div[text()="Lift Black Voices"]/ancestor::a[contains(@href, "/liftblackvoices/")]/ancestor::li)
 facebook.com##:xpath(//a[starts-with(@aria-label,"Watch") and starts-with(@href,"/watch/")]/ancestor::li)
 facebook.com##:xpath(//a[starts-with(@aria-label,"Marketplace") and starts-with(@href,"/marketplace/")]/ancestor::li)
 facebook.com##:xpath(//a[starts-with(@aria-label,"Gaming") and starts-with(@href,"/gaming/")]/ancestor::li)
