@@ -142,7 +142,7 @@ arstechnica.com##.ars-appeal-wrapper
 arstechnica.com##.site-header
 arstechnica.com###main:style(padding-top:0 !important;)
 
-twitch.tv##.extension-container
-twitch.tv##.extension-taskbar
+! Hide extensions and overlays
+twitch.tv##.passthrough-events
 
 nytimes.com##.MAG_web_anon_new-journey-rollout
