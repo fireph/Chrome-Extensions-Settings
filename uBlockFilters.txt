@@ -84,12 +84,14 @@ polygon.com##.l-header
 polygon.com##.tab-bar-fixed.c-tab-bar
 polygon.com###content:style(margin-top:0 !important;)
 
-slickdeals.net###featureDealsAndCoupons
+
+deals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
 slickdeals.net###crt-adblock-a
 slickdeals.net###crt-adblock-b
 slickdeals.net###giveawayItem
 slickdeals.net##.announcementBarPlaceholder
+slickdeals.net##.rightRailBannerModule
 
 myanimelist.net##.banner-header-anime-straming
 myanimelist.net##.btn-mal-service
@@ -144,5 +146,7 @@ arstechnica.com###main:style(padding-top:0 !important;)
 
 ! Hide extensions and overlays
 twitch.tv##.passthrough-events
+! Hide chat input
+twitch.tv##.chat-input
 
 nytimes.com##.MAG_web_anon_new-journey-rollout
