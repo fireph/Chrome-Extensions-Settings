@@ -84,8 +84,7 @@ polygon.com##.l-header
 polygon.com##.tab-bar-fixed.c-tab-bar
 polygon.com###content:style(margin-top:0 !important;)
 
-
-deals.net###featureDealsAndCoupons
+slickdeals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
 slickdeals.net###crt-adblock-a
 slickdeals.net###crt-adblock-b
@@ -148,5 +147,9 @@ arstechnica.com###main:style(padding-top:0 !important;)
 twitch.tv##.passthrough-events
 ! Hide chat input
 twitch.tv##.chat-input
+
+! Hide chat input (videos and live)
+youtube.com##ytd-comment-simplebox-renderer
+youtube.com###input-panel
 
 nytimes.com##.MAG_web_anon_new-journey-rollout
