@@ -156,3 +156,7 @@ youtube.com##ytd-comment-simplebox-renderer
 youtube.com###input-panel
 
 nytimes.com##.MAG_web_anon_new-journey-rollout
+
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.premium-banner-outer
+old.reddit.com###login_login-main
