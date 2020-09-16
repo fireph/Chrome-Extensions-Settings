@@ -65,6 +65,7 @@ facebook.com##:xpath(//a[starts-with(@aria-label,"Watch") and starts-with(@href,
 facebook.com##:xpath(//a[starts-with(@aria-label,"Marketplace") and starts-with(@href,"/marketplace/")]/ancestor::li)
 facebook.com##:xpath(//a[starts-with(@aria-label,"Gaming") and starts-with(@href,"/gaming/")]/ancestor::li)
 facebook.com##div[data-pagelet="VideoChatHomeUnit"]
+facebook.com##:xpath(//span[text()="Play Now"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit")])
 
 ! Block sponsored posts
 facebook.com##div[data-pagelet^="FeedUnit"]:has(a[role^=link]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
