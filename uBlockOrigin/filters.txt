@@ -153,6 +153,7 @@ twitch.tv##.chat-input
 
 twitch.tv##.channel-leaderboard
 twitch.tv##.video-player__container:style(bottom: 0 !important;)
+twitch.tv##:xpath(//h4[@aria-label="Check out your upcoming followed streams"]/parent::div/parent::div/parent::div)
 
 ! Hide chat input (videos and live)
 youtube.com##ytd-comment-simplebox-renderer
