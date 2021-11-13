@@ -6,6 +6,10 @@
 ! Download: https://raw.githubusercontent.com/fireph/uBlock-Origin-Filters/master/uBlockFilters.txt
 ! License: MIT
 
+! Block all disqus
+||disqus.com/embed/comments/
+###disqus_thread
+
 ! New Facebook UI
 facebook.com##:xpath(//div[@aria-label="Stories"])
 facebook.com##:xpath(//div[@data-pagelet="Stories"])
