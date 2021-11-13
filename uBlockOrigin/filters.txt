@@ -6,48 +6,6 @@
 ! Download: https://raw.githubusercontent.com/fireph/uBlock-Origin-Filters/master/uBlockFilters.txt
 ! License: MIT
 
-! facebook.com###createNav
-! facebook.com###pagelet_advertiser_panel
-! facebook.com###fb_stories_card_root
-! facebook.com###pagelet_ego_pane
-! facebook.com###pagelet_rhc_ticker_card
-! facebook.com###pagelet_locale_coverage
-! facebook.com###pagelet_trending_tags_and_topics
-! facebook.com###pagelet_games_rhc
-! facebook.com###pagelet_ego_contextual_group
-! facebook.com###pagelet_video_home_suggested_for_you_rhc
-! facebook.com###pagelet_marketplace_new_user_vehicle_rhc
-! facebook.com###pagelet_marketplace_new_user_top_picks_rhc
-! facebook.com###pagelet_video_home_watch_list_rhc
-! facebook.com###GroupsRHCSuggestionSection
-! facebook.com###event_related_events
-! facebook.com###event_related_pages
-! facebook.com##*[id^="PagePagesLikedByPageSecondaryPagelet"]
-! facebook.com##.ego_section
-! facebook.com###work_mobile_upsell_pagelet
-! facebook.com##div[id^="PageRelatedPagesSecondaryPagelet_"]
-! facebook.com##:xpath(//div[@title="Page Stories You May Like"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-! facebook.com##:xpath(//a[starts-with(@href, "/groups/") and text()="Discover More Groups"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-! facebook.com##:xpath(//span[text()="Connect With Facebook"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-! facebook.com##:xpath(//span[text()="Create New Groups"]/parent::div/parent::div)
-! facebook.com##:xpath(//button[text()="Create a Page"])
-! facebook.com##:xpath(//span[text()="Bring People Together"]/parent::div/parent::div)
-! facebook.com##:xpath(//div[text()="— The Facebook Help Team"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-! facebook.com##:xpath(//div[text()="People to Follow"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-! facebook.com##:xpath(//div[@aria-label="Message from Facebook"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-
-! facebook.com##:xpath(//a[starts-with(@href, "/games/") and @title="Games"]/ancestor::li[starts-with(@id,"navItem_")])
-! facebook.com##:xpath(//a[starts-with(@href, "/marketplace/") and @title="Marketplace"]/ancestor::li[starts-with(@id,"navItem_")])
-! facebook.com##:xpath(//a[starts-with(@href, "/campaign/landing.php") and @title="Ads Manager"]/ancestor::li[starts-with(@id,"navItem_")])
-! facebook.com##:xpath(//a[starts-with(@href, "/fundraisers/") and @title="Fundraisers"]/ancestor::li[starts-with(@id,"navItem_")])
-! facebook.com##:xpath(//a[starts-with(@href, "/bookmarks/lists/") and @title="Friend Lists"]/ancestor::li[starts-with(@id,"navItem_")])
-! facebook.com##:xpath(//a[starts-with(@href, "/explore/") and @title="Explore Feed"]/ancestor::li[starts-with(@id,"navItem_")])
-
-! Block Facebook sponsored posts and pagelets
-! facebook.com##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
-! facebook.com##.pagelet-group .pagelet:has(a:has-text(Sponsored))
-! facebook.com##.pagelet-group .pagelet:has(a:has-text(Create ad))
-
 ! New Facebook UI
 facebook.com##:xpath(//div[@aria-label="Stories"])
 facebook.com##:xpath(//div[@data-pagelet="Stories"])
@@ -75,8 +33,6 @@ workplace.com##:xpath(//h2[text()="Suggested Groups"]/parent::div/parent::div/pa
 workplace.com##:xpath(//h2[text()="People to Follow"]/parent::div/parent::div/parent::div/parent::div/parent::div)
 workplace.com##:xpath(//h3[text()="Suggested Members"]/parent::div/parent::div/parent::div/parent::div)
 workplace.com##:xpath(//span[text()="People to Follow"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-
-hotslogs.com###MainContent_advertisementBannerMonkeyBrokerTopReplacement
 
 theverge.com##.l-header
 theverge.com##.tab-bar-fixed.c-tab-bar
@@ -119,18 +75,11 @@ amazon.com###huc-v2-cobrand-stripe
 forum.xda-developers.com###honor-launch-banner
 forum.xda-developers.com##a[href="/ad-free"]
 
-horriblesubs.info##.message-blk.msgblk-container
-horriblesubs.info###headerimg
-
 stackoverflow.com##.js-dismissable-hero
 
 wowhead.com##.header-nav-wowhead-premium
 wowhead.com##.zul-bar-user-item-get-premium
 wowhead.com##.premium-promo-row
-
-warcraftlogs.com###anyclip-container-box
-warcraftlogs.com###top-banner
-warcraftlogs.com###patron-box
 
 yelp.com##:xpath(//div[contains(@data-hypernova-key, "__yelp_main__Promotion__dynamic")])
 
@@ -180,3 +129,5 @@ old.reddit.com##.seo-comments-recommendations
 old.reddit.com##.commentsignupbar
 
 tiktok.com##:xpath(//div[text()="Suggested accounts"]/parent::div)
+
+fora.snahp.eu###qr_postform
