@@ -87,6 +87,7 @@ theverge.com##.c-comments__message
 polygon.com##.l-header
 polygon.com##.tab-bar-fixed.c-tab-bar
 polygon.com###content:style(margin-top:0 !important;)
+polygon.com##.c-comments__message
 
 slickdeals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
