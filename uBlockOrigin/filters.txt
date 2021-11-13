@@ -82,6 +82,7 @@ theverge.com##.l-header
 theverge.com##.tab-bar-fixed.c-tab-bar
 theverge.com###content:style(margin-top:0 !important;)
 theverge.com##.c-newsletter_signup_box
+theverge.com##.c-comments__message
 
 polygon.com##.l-header
 polygon.com##.tab-bar-fixed.c-tab-bar
