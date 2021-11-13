@@ -148,6 +148,11 @@ xkcd.com###topContainer
 arstechnica.com##.ars-appeal-wrapper
 arstechnica.com##.site-header
 arstechnica.com###main:style(padding-top:0 !important;)
+arstechnica.com###comments-posting-container
+
+anandtech.com###icTopPost
+
+servethehome.com###commentform
 
 ! Hide extensions and overlays
 twitch.tv##.passthrough-events
