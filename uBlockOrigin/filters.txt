@@ -48,6 +48,7 @@ polygon.com##.l-header
 polygon.com##.tab-bar-fixed.c-tab-bar
 polygon.com###content:style(margin-top:0 !important;)
 polygon.com##.c-comments__message
+polygon.com###toaster
 
 slickdeals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
