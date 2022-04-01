@@ -48,8 +48,11 @@ polygon.com##.l-header
 polygon.com##.tab-bar-fixed.c-tab-bar
 polygon.com###content:style(margin-top:0 !important;)
 polygon.com##.c-comments__message
+polygon.com##.c-toaster
 polygon.com###toaster
 polygon.com###newsletter-signup-short-form
+polygon.com##.adblock-whitelist-messaging__wrapper
+polygon.com##.adblock-whitelist-messaging__article-wrapper
 
 slickdeals.net###featureDealsAndCoupons
 slickdeals.net##.announcementBar
@@ -89,9 +92,6 @@ wowhead.com##.premium-promo-row
 
 yelp.com##:xpath(//div[contains(@data-hypernova-key, "__yelp_main__Promotion__dynamic")])
 
-polygon.com##.adblock-whitelist-messaging__wrapper
-polygon.com##.adblock-whitelist-messaging__article-wrapper
-
 youtube.com##.ytp-ce-element
 
 newegg.com##.live-shopping
@@ -116,6 +116,7 @@ twitch.tv##.chat-input__textarea
 twitch.tv##:xpath(//button[@data-a-target="chat-send-button"])
 twitch.tv##+js(twitch-videoad)
 
+twitch.tv##.top-nav__prime
 twitch.tv##.channel-leaderboard
 twitch.tv##.video-player__container:style(bottom: 0 !important;)
 twitch.tv##:xpath(//h4[@aria-label="Check out your upcoming followed streams"]/parent::div/parent::div/parent::div)
