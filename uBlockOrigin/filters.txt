@@ -138,3 +138,5 @@ old.reddit.com##.commentsignupbar
 tiktok.com##:xpath(//div[text()="Suggested accounts"]/parent::div)
 
 fora.snahp.eu###qr_postform
+
+quordle.com###footer-placement
