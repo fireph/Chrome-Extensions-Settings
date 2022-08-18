@@ -1,0 +1,10 @@
+! Title: uBlock Origin Filters (Bromite)
+! Description: My personal filters for Bromite
+! Expires: 2 days
+! Author: fireph
+! Homepage: https://github.com/fireph/Chrome-Extensions-Settings
+! Download: https://raw.githubusercontent.com/fireph/Chrome-Extensions-Settings/master/uBlockOrigin/bromite-filters.txt
+! License: MIT
+
+quordle.com##nav > div:first-child
+quordle.com###footer-placement
