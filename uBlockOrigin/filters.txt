@@ -139,4 +139,5 @@ tiktok.com##:xpath(//div[text()="Suggested accounts"]/parent::div)
 
 fora.snahp.eu###qr_postform
 
+quordle.com##nav > div:first-child
 quordle.com###footer-placement
