@@ -2,8 +2,8 @@
 ! Description: My personal filters for uBlock Origin
 ! Expires: 2 days
 ! Author: fireph
-! Homepage: https://github.com/fireph/uBlock-Origin-Filters
-! Download: https://raw.githubusercontent.com/fireph/uBlock-Origin-Filters/master/uBlockFilters.txt
+! Homepage: https://github.com/fireph/Chrome-Extensions-Settings
+! Download: https://raw.githubusercontent.com/fireph/Chrome-Extensions-Settings/master/uBlockOrigin/filters.txt
 ! License: MIT
 
 ! Block all disqus
