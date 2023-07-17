@@ -69,7 +69,7 @@ myanimelist.net##.btn-mal-service
 rarbg.to##body > table:nth-of-type(1)
 
 ! Block Youtube gif previews
-||i.ytimg.com/an_webp/*/mqdefault_6s.webp*
+/mqdefault_6s.webp$image,domain=youtube.com
 
 cpubenchmark.net###blocker
 cpubenchmark.net###specialsCornerPromo
