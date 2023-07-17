@@ -93,6 +93,7 @@ wowhead.com##.premium-promo-row
 yelp.com##:xpath(//div[contains(@data-hypernova-key, "__yelp_main__Promotion__dynamic")])
 
 youtube.com##.ytp-ce-element
+youtube.com##.ytd-thumbnail-overlay-endorsement-renderer
 
 newegg.com##.live-shopping
 
