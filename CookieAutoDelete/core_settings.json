@@ -25,6 +25,10 @@
       "value": false
     },
     {
+      "name": "contextualIdentitiesAutoRemove",
+      "value": true
+    },
+    {
       "name": "debugMode",
       "value": false
     },
@@ -92,6 +96,10 @@
     },
     {
       "name": "showNumOfCookiesInIcon",
+      "value": true
+    },
+    {
+      "name": "siteDataEmptyOnEnable",
       "value": true
     },
     {
