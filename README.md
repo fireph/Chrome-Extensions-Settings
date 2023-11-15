@@ -2,6 +2,10 @@
 1. Install [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 2. Import https://raw.githubusercontent.com/fireph/Chrome-Extensions-Settings/master/uBlockOrigin/filters.txt in `Filter lists->Custom->Import`
 
+## Brave
+1. Go to brave://settings/shields/filters
+2. Import https://raw.githubusercontent.com/fireph/Chrome-Extensions-Settings/master/uBlockOrigin/filters.txt in `Add custom filter lists`
+
 ## Cookie Auto Delete
 1. Install [Cookie Auto Delete](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)
 2. Import `CookieAutoDelete/core_settings.json` in `CAD Settings->Import Core Settings`
