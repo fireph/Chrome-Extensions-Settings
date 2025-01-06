@@ -147,4 +147,4 @@ iptorrents.com###poll
 iptorrents.com##:xpath(//a[@href="https://privateiptvaccess.com"]/parent::div/parent::div)
 iptorrents.com##:xpath(//a[@href="https://coinprocess.io"]/parent::div/parent::div)
 iptorrents.com##:xpath(//a[@href="/iptv"])
-iptorrents.com##:xpath(//a[@href="/donate.php"])
+iptorrents.com##:xpath(//a[@href="/donate.php" and not(contains(@class, "bannerPlaceholder"))])
