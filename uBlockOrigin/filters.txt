@@ -142,3 +142,9 @@ fora.snahp.eu###qr_postform
 
 quordle.com##nav > div:first-child
 quordle.com###footer-placement
+
+iptorrents.com###poll
+iptorrents.com##:xpath(//a[@href="https://privateiptvaccess.com"]/parent::div/parent::div)
+iptorrents.com##:xpath(//a[@href="https://coinprocess.io"]/parent::div/parent::div)
+iptorrents.com##:xpath(//a[@href="/iptv"])
+iptorrents.com##:xpath(//a[@href="/donate.php"])
