@@ -68,9 +68,6 @@ myanimelist.net##.btn-mal-service
 
 rarbg.to##body > table:nth-of-type(1)
 
-! Block Youtube gif previews
-/mqdefault_6s.webp$image,domain=youtube.com
-
 cpubenchmark.net###blocker
 cpubenchmark.net###specialsCornerPromo
 
@@ -94,6 +91,13 @@ yelp.com##:xpath(//div[contains(@data-hypernova-key, "__yelp_main__Promotion__dy
 
 youtube.com##.ytp-ce-element
 youtube.com##.ytd-thumbnail-overlay-endorsement-renderer
+! Block Youtube gif previews
+/mqdefault_6s.webp$image,domain=youtube.com
+! Disable thumbnail preview
+youtube.com##+js(aeld, mouseenter)
+! Hide chat input (videos and live)
+youtube.com##ytd-comment-simplebox-renderer
+youtube.com###input-panel
 
 newegg.com##.live-shopping
 
@@ -122,10 +126,6 @@ twitch.tv##.channel-leaderboard
 twitch.tv##.video-player__container:style(bottom: 0 !important;)
 twitch.tv##:xpath(//h4[@aria-label="Check out your upcoming followed streams"]/parent::div/parent::div/parent::div)
 twitch.tv##:xpath(//div[contains(@class, "subtember-text")]/parent::div/parent::div)
-
-! Hide chat input (videos and live)
-youtube.com##ytd-comment-simplebox-renderer
-youtube.com###input-panel
 
 nytimes.com##.MAG_web_anon_new-journey-rollout
 
