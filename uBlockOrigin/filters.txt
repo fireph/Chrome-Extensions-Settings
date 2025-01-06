@@ -151,3 +151,6 @@ iptorrents.com##:xpath(//a[@href="/donate.php" and not(contains(@class, "bannerP
 
 torrentleech.org##.topMenuAds
 torrentleech.org##.lottery-info
+torrentleech.org##:xpath(//ul[contains(@class, "nav")]/li/a[@href="/user/donate"]/parent::li)
+torrentleech.org##:xpath(//div[contains(@class, "message")]/a[@href="/user/donate"]/parent::div)
+torrentleech.org##:xpath(//div[contains(@class, "message")]/a[@href="/lottery"]/parent::div)
