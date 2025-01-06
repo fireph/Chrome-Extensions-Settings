@@ -148,3 +148,9 @@ iptorrents.com##:xpath(//a[@href="https://privateiptvaccess.com"]/parent::div/pa
 iptorrents.com##:xpath(//a[@href="https://coinprocess.io"]/parent::div/parent::div)
 iptorrents.com##:xpath(//a[@href="/iptv"])
 iptorrents.com##:xpath(//a[@href="/donate.php" and not(contains(@class, "bannerPlaceholder"))])
+
+torrentleech.org##.topMenuAds
+torrentleech.org##.lottery-info
+torrentleech.org##:xpath(//a[@href="/user/donate"]/parent::li)
+torrentleech.org##:xpath(//a[@href="/user/donate"]/parent::div[contains(@class, "message")])
+torrentleech.org##:xpath(//a[@href="/lottery"]/parent::div[contains(@class, "message")])
