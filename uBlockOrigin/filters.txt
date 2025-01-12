@@ -33,11 +33,6 @@ facebook.com##:xpath(//span[text()="Play Now"]/ancestor::div[starts-with(@data-p
 facebook.com##div[data-pagelet^="FeedUnit"]:has(a[role^=link]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 facebook.com##div[data-pagelet^="FeedUnit"]:has(div[role^="button"]:has(> span > span:matches-css(position: relative):has-text(S):not(:has-text(1)):not(:has-text(2)):not(:has-text(3)):not(:has-text(4)):not(:has-text(5)):not(:has-text(6)):not(:has-text(7)):not(:has-text(8)):not(:has-text(9)):not(:has-text(w))))
 
-workplace.com##:xpath(//h2[text()="Suggested Groups"]/parent::div/parent::div/parent::div/parent::div/parent::div)
-workplace.com##:xpath(//h2[text()="People to Follow"]/parent::div/parent::div/parent::div/parent::div/parent::div)
-workplace.com##:xpath(//h3[text()="Suggested Members"]/parent::div/parent::div/parent::div/parent::div)
-workplace.com##:xpath(//span[text()="People to Follow"]/ancestor::div[starts-with(@id,"hyperfeed_story_id_")])
-
 theverge.com##.l-header
 theverge.com##.tab-bar-fixed.c-tab-bar
 theverge.com###content:style(margin-top:0 !important;)
@@ -124,8 +119,6 @@ twitch.tv##.passthrough-events
 twitch.tv##.top-nav__prime
 twitch.tv##.channel-leaderboard
 twitch.tv##.video-player__container:style(bottom: 0 !important;)
-twitch.tv##:xpath(//h4[@aria-label="Check out your upcoming followed streams"]/parent::div/parent::div/parent::div)
-twitch.tv##:xpath(//div[contains(@class, "subtember-text")]/parent::div/parent::div)
 
 nytimes.com##.MAG_web_anon_new-journey-rollout
 
@@ -135,8 +128,6 @@ old.reddit.com###login_login-main
 old.reddit.com##.seo-comments
 old.reddit.com##.seo-comments-recommendations
 old.reddit.com##.commentsignupbar
-
-tiktok.com##:xpath(//div[text()="Suggested accounts"]/parent::div)
 
 fora.snahp.eu###qr_postform
 
