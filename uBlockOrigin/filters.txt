@@ -110,7 +110,7 @@ anandtech.com###icTopPost
 servethehome.com###commentform
 
 ! Hide extensions and overlays
-twitch.tv##.passthrough-events
+! twitch.tv##.passthrough-events
 ! Hide chat input
 ! twitch.tv##.chat-input__textarea
 ! twitch.tv##:xpath(//button[@data-a-target="chat-send-button"])
